@@ -1,0 +1,432 @@
+.home-container {
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+  padding-top: 20px;
+  min-height: 300px;
+}
+
+.scroll-arrow {
+  padding-top: 160px;
+  height: 100px;
+}
+
+@media (max-width: 490px) {
+  .scroll-arrow {
+    padding-top: 120px;
+  }
+}
+
+.footer-text {
+  font-size: 16px;
+}
+
+@media (max-width: 500px) {
+  .footer-text {
+    font-size: 14px;
+  }
+}
+
+.link-no-underline {
+  text-decoration: none;
+}
+
+.home-bio {
+  font-size: 1.2em;
+  width: 40%;
+  height: 40vh;
+  max-width: 650px;
+  margin-top: 50px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 950px) {
+  .home-bio {
+    font-size: 1.1em;
+  }
+}
+
+@media (max-width: 900px) {
+  .home-bio {
+    font-size: 1.08em;
+  }
+}
+
+@media (max-width: 850px) {
+  .home-bio {
+    width: 45%;
+  }
+}
+
+@media (max-width: 750px) {
+  .home-bio {
+    font-size: 1.05em;
+    width: 50%;
+  }
+}
+
+@media (max-width: 650px) {
+  .home-bio {
+    font-size: 1.05em;
+    width: 55%;
+  }
+}
+
+@media (max-width: 550px) {
+  .home-bio {
+    font-size: 0.95em;
+    width: 54%;
+  }
+}
+
+@media (max-width: 490px) {
+  .home-bio {
+    margin-top: -35px;
+  }
+}
+
+.poster {
+  width: 100%;
+  height: 100%;
+  font-family: "Quicksand";
+  font-size: 32px;
+}
+
+.inline-image {
+  vertical-align: middle;
+  height: 1em;
+  width: auto;
+  margin: 0 2px;
+}
+
+.sidecard-container {
+  display: flex;
+  margin-bottom: 7vh;
+  margin-right: -2vw;
+  margin-left: 20px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sidecard-container-right {
+  display: flex;
+  margin-bottom: 7vh;
+  margin-right: 3vw;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sidecard {
+  width: 100%;
+  height: 60vh;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.sidecard-image-container {
+  height: 60%;
+  width: 100%;
+  top: 0;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidecard-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.sidecard:hover .sidecard-image {
+  filter: grayscale(0%);
+}
+
+.sidecard-content-container {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+  overflow: wrap;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sidecard:hover .sidecard-content-container {
+  background-color: #201c1c;
+  color: white;
+}
+
+.sidecard-title {
+  font-family: 'Montserrat';
+  font-size: 18px;
+  padding-right: 3vw;
+  padding-bottom: 1.5vh;
+  padding-top: 1vh;
+  margin: 0 auto;
+  overflow: wrap;
+}
+
+.sidecard-body {
+  font-family: 'Quicksand';
+  font-size: 14px;
+  padding-right: 3vw;
+  padding-bottom: 1.5vh;
+  margin: 0 auto;
+}
+
+.sidecard-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  font-family: 'Source code pro';
+  padding-right: 4vw;
+  font-size: 14px;
+}
+
+@media (max-width: 900px) {
+  .sidecard-title {
+    font-size: 18px;
+  }
+
+  .sidecard-body {
+    font-size: 12px;
+  }
+
+  .sidecard-details {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 800px) {
+  .sidecard-title {
+    font-size: 16px;
+    padding-right: 4vw;
+  }
+
+  .sidecard-body {
+    font-size: 11px;
+    padding-right: 4vw;
+  }
+}
+
+@media (max-width: 700px) {
+  .sidecard-title {
+    padding-right: 5vw;
+    margin-left: -0.5vw;
+    font-size: 14px;
+  }
+
+  .sidecard-body {
+    padding-right: 6vw;
+    margin-left: -0.5vw;
+    font-size: 11px;
+  }
+
+  .sidecard-details {
+    padding-right: 6vw;
+    margin-left: -0.5vw;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 650px) {
+  .sidecard-title {
+    font-size: 12px;
+  }
+  .sidecard-details {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 550px) {
+  .sidecard-title {
+    font-size: 12px;
+  }
+  .sidecard-details {
+    font-size: 10px;
+  }
+  .sidecard-body {
+    font-size: 9.5px;
+  }
+}
+
+@media (max-height: 600px) {
+  .sidecard-title {
+    font-size: 11px;
+    padding-bottom: 2vh;
+  }
+
+  .sidecard-body {
+    padding-bottom: 2vh;
+    font-size: 10px;
+  }
+
+  .sidecard-details {
+    font-size: 12px;
+  }
+}
+
+
+/* PARALLAX CSS */
+
+
+.pageTitle {
+  text-align: center;
+  font-size: 22px;
+  margin: 90px 0 10px;
+  visibility: hidden;
+}
+
+.description {
+  max-width: 600px;
+  margin: 10px auto 30px;
+  font-size: 22px;
+  line-height: 28px;
+
+  & a {
+    color: black;
+  }
+}
+
+.pageSubtitle {
+  text-align: center;
+  font-size: 22px;
+  color: #888;
+}
+
+.graphicContainer {
+  padding: 40vh 2vw 20vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.graphic {
+  flex-basis: 60%;
+  position: sticky;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  margin-left: 8vw;
+  margin-right: 5vw;
+  width: 100%;
+  height: 60vh;
+  min-height: 300px;
+  top: 30vh;
+  background-color: #ffffff;
+}
+
+.arrowRight {
+  width: 100%;
+  justify-content: left;
+  margin-top: 78px;
+  margin-left: -25px;
+
+}
+
+.arrowLeft {
+  width: 100%;
+  justify-content: right;
+  margin-top: 78px;
+  margin-right: -25px;
+}
+
+.graphic-left {
+  flex-basis: 60%;
+  position: sticky;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 3vw;
+  margin-right: 5vw;
+  width: 100%;
+  height: 60vh;
+  min-height: 300px;
+  top: 30vh;
+  background-color: #ffffff;
+}
+
+@media (max-width: 490px) {
+  .graphic {
+    flex-basis: 50%;
+  }
+
+  .graphic-left {
+    flex-basis: 50%;
+  }
+}
+
+@media (max-width: 820px) {
+  .poster {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 600px) {
+  .graphic {
+    top: 28vh;
+  }
+
+  .graphic-left {
+    top: 28vh;
+  }
+
+  .poster {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 490px) {
+  .poster {
+    font-size: 20px;
+  }
+}
+
+.scroller {
+  flex-basis: 35%;
+}
+
+.step {
+  margin: 0 auto 3rem auto;
+  padding: 180px 0;
+  border: 1px solid #333;
+
+  & p {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.8rem;
+    margin: 0;
+  }
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
