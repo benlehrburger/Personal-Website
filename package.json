@@ -1,6 +1,6 @@
 {
   "name": "Personal-Website",
-  "homepage": "www.benlehrburger.me/",
+  "homepage": "https://benlehrburger.github.io/Personal-Website/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
