@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e3ae1977.css",
-    "main.js": "/static/js/main.57995032.js",
+    "main.js": "/static/js/main.9b6728c9.js",
     "static/media/IMG_9883.JPG": "/static/media/IMG_9883.72a5bab71a4ba7e0deeb.JPG",
     "static/media/agora-cover.png": "/static/media/agora-cover.074cc007fd160036286c.png",
     "static/media/IMG_3594.jpg": "/static/media/IMG_3594.f521835027b884636966.jpg",
@@ -192,10 +192,10 @@
     "static/media/g5.png": "/static/media/g5.15dc3362458694fbfd71.png",
     "index.html": "/index.html",
     "main.e3ae1977.css.map": "/static/css/main.e3ae1977.css.map",
-    "main.57995032.js.map": "/static/js/main.57995032.js.map"
+    "main.9b6728c9.js.map": "/static/js/main.9b6728c9.js.map"
   },
   "entrypoints": [
     "static/css/main.e3ae1977.css",
-    "static/js/main.57995032.js"
+    "static/js/main.9b6728c9.js"
   ]
 }
